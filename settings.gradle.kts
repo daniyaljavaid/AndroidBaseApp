@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndroidBaseTemplate"
-include ':app'
+include(":app")
