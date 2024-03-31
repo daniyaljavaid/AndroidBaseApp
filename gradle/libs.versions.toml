@@ -1,0 +1,16 @@
+[versions]
+#Library versions
+ktx = "1.9.0"
+
+#Plugin versions
+androidApplicationPlugin = "8.0.2"
+androidLibraryPlugin = "8.0.2"
+kotlinAndroidPlugin = "1.7.20"
+
+[libraries]
+androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "ktx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidApplicationPlugin" }
+android-library = { id = "com.android.library", version.ref = "androidLibraryPlugin" }
+android-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinAndroidPlugin" }
